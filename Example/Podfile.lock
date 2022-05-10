@@ -1,0 +1,16 @@
+PODS:
+  - UScrollView (0.1.0)
+
+DEPENDENCIES:
+  - UScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  UScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UScrollView: 8c469306f9c53976649439760e2cc5eb984cb9df
+
+PODFILE CHECKSUM: 90a96533893d798712956b7c87021ec213353a4c
+
+COCOAPODS: 1.11.3

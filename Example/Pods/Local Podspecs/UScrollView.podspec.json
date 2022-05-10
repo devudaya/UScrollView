@@ -1,0 +1,22 @@
+{
+  "name": "UScrollView",
+  "version": "0.1.0",
+  "summary": "A short description of UScrollView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/devudaya/UScrollView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "devudaya": "niroshan127@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/devudaya/UScrollView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "UScrollView/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module UScrollView {
+  umbrella header "UScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}
