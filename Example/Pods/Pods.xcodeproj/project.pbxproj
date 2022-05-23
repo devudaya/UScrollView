@@ -20,6 +20,8 @@
 		51F24CCC4176FD9CC3A0AA26C27505F0 /* Pods-UScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1402D82D47B9243995DC05C4540A5F /* Pods-UScrollView_Example-dummy.m */; };
 		588EEA3FAF28A403ADD832A1496F412F /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09FE24794B2ED4575096B2F66BA5CC9 /* Constraints.swift */; };
 		64810A75CC254B76D74E3F2586AD3B47 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF0EFA80D02F8C35745900DA3F45FF /* Stack.swift */; };
+		6815B944283B90DC00B44D0B /* Gateway.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6815B943283B90DC00B44D0B /* Gateway.storyboard */; };
+		6815B946283B91CF00B44D0B /* GatewayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815B945283B91CF00B44D0B /* GatewayVC.swift */; };
 		86D65994440BB6C5C96B6E4048E4A69F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9FC86B0DF30483BEC772265C38AA5440 /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53090B7B9F2DA5A542B6E0B2472A6E8A /* TinyConstraints.swift */; };
 		BF75F7C3CE5DF53FDC340EB541B30224 /* TinyEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78051CAF65CCFDC2B674F3ABC68C4607 /* TinyEdgeInsets.swift */; };
@@ -70,18 +72,20 @@
 		1FEE5CDE7AF1FA65B5FF37612C7E56A6 /* Pods-UScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		23DEC99ECCBD720B45021FAC06344611 /* Pods-UScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		248EB203AE249596FFC55952F5590D95 /* TinyConstraints */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinyConstraints; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A3ED76506F7A4713D0E62262291F2BD /* UScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2A3ED76506F7A4713D0E62262291F2BD /* UScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		37C5A7A34282932064D3F3E64FD93EFF /* TinyConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinyConstraints.modulemap; sourceTree = "<group>"; };
 		40A2DF43C3E5A1D1E9A559D9F154D5D4 /* Constrainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrainable.swift; path = TinyConstraints/Classes/Constrainable.swift; sourceTree = "<group>"; };
 		425AA6E79E665AB186F51986F9D6181F /* UScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UScrollView-dummy.m"; sourceTree = "<group>"; };
 		453FCE2135580B4B56F182854A72D7AB /* UScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UScrollView-Info.plist"; sourceTree = "<group>"; };
-		470AC591D10557EEF11E09881DF6EC0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		470AC591D10557EEF11E09881DF6EC0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		53090B7B9F2DA5A542B6E0B2472A6E8A /* TinyConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConstraints.swift; path = TinyConstraints/Classes/TinyConstraints.swift; sourceTree = "<group>"; };
 		66F31DFEE9A32C833131C53D979764F1 /* Pods-UScrollView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UScrollView_Tests-Info.plist"; sourceTree = "<group>"; };
+		6815B943283B90DC00B44D0B /* Gateway.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Gateway.storyboard; sourceTree = "<group>"; };
+		6815B945283B91CF00B44D0B /* GatewayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatewayVC.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76AC2A1B7E36857967F0AFD55BFE8DEB /* Pods-UScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UScrollView_Tests.modulemap"; sourceTree = "<group>"; };
 		78051CAF65CCFDC2B674F3ABC68C4607 /* TinyEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyEdgeInsets.swift; path = TinyConstraints/Classes/TinyEdgeInsets.swift; sourceTree = "<group>"; };
-		7ADBA9FBA695D976DB2244C12AFA3F42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7ADBA9FBA695D976DB2244C12AFA3F42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7AFAB4EDB802FBE5C100041240505562 /* Pods-UScrollView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UScrollView_Example-Info.plist"; sourceTree = "<group>"; };
 		7C4DDD6049A398730E749D002B53619F /* Pods-UScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7D2BF895255A9365BC69CAD063F1C0B4 /* Abstraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Abstraction.swift; path = TinyConstraints/Classes/Abstraction.swift; sourceTree = "<group>"; };
@@ -91,7 +95,7 @@
 		9161B89C89857CEE2F80FEEE8ECBD679 /* Pods-UScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UScrollView_Example.modulemap"; sourceTree = "<group>"; };
 		93AFF34A6F48CE5AAF27B12ABE45BF3B /* Pods-UScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		97E5F00DF3F570401097A5AECEF2D97F /* Pods-UScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA01ED182085AE138D9A1F3ED204EB43 /* UScrollView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UScrollView; path = UScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4BF35FD2FFA8A7D79B43CF30903EB4 /* Pods-UScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BD142B15CA46D7D57EEE0F58BEF11887 /* Pods-UScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -299,6 +303,8 @@
 				90858DF50BA1CE15BF0DE523C48E88B3 /* UScrollViewElement.swift */,
 				3D319483A25E756B7B8EB7CDDC6EB735 /* Pod */,
 				B6DE4760D4EF29A8D1A79F975ED6933B /* Support Files */,
+				6815B943283B90DC00B44D0B /* Gateway.storyboard */,
+				6815B945283B91CF00B44D0B /* GatewayVC.swift */,
 			);
 			name = UScrollView;
 			path = ../..;
@@ -316,7 +322,6 @@
 				78051CAF65CCFDC2B674F3ABC68C4607 /* TinyEdgeInsets.swift */,
 				66F7B86CE8FCF1C7A66B95E3D03A19DD /* Support Files */,
 			);
-			name = TinyConstraints;
 			path = TinyConstraints;
 			sourceTree = "<group>";
 		};
@@ -469,6 +474,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6815B944283B90DC00B44D0B /* Gateway.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +509,7 @@
 				D2091D5E8819B999159A8834C2BFB809 /* UScrollView.swift in Sources */,
 				EEFFF3430C9A6E267D2B7DA0374DFAD4 /* UScrollView+.swift in Sources */,
 				EFAA115BC238158380E7525499369DD4 /* UScrollView-dummy.m in Sources */,
+				6815B946283B91CF00B44D0B /* GatewayVC.swift in Sources */,
 				ED48968C99F6D951A4D5D6CBE5381A28 /* UScrollViewContainer.swift in Sources */,
 				0D61A05FAAD3DA267D42A91741A35794 /* UScrollViewElement.swift in Sources */,
 			);
@@ -757,8 +764,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
