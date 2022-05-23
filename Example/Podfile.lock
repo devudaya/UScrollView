@@ -1,16 +1,24 @@
 PODS:
-  - UScrollView (0.1.0)
+  - TinyConstraints (4.0.2)
+  - UScrollView (0.1.0):
+    - TinyConstraints (~> 4.0.0)
 
 DEPENDENCIES:
+  - TinyConstraints (~> 4.0.0)
   - UScrollView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - TinyConstraints
 
 EXTERNAL SOURCES:
   UScrollView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UScrollView: 8c469306f9c53976649439760e2cc5eb984cb9df
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+  UScrollView: c0971f4987fb6b9bcaf2b3a79ae9f6cc20839f03
 
-PODFILE CHECKSUM: 90a96533893d798712956b7c87021ec213353a4c
+PODFILE CHECKSUM: cd1dbd38855aa914492a3969f69489635876a280
 
 COCOAPODS: 1.11.3
