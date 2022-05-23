@@ -36,6 +36,7 @@ Pod::Spec.new do |s|
          "ios": "12.0"
      }
   
+  s.resources = "Source/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   # s.resource_bundles = {
   #   'UScrollView' => ['UScrollView/Assets/*.png']
   # }
