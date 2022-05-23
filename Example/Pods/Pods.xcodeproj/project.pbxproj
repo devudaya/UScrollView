@@ -297,14 +297,14 @@
 		D222D0AA2652AB22E4AF58D128146E41 /* UScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				6815B943283B90DC00B44D0B /* Gateway.storyboard */,
+				6815B945283B91CF00B44D0B /* GatewayVC.swift */,
 				107B9DF19AACCBBA43E71F4D7FBED674 /* UScrollView.swift */,
 				D90B70424B06F76F56BC94993A8520EE /* UScrollView+.swift */,
 				D96E5B25CD2E6D1BADDDAA8D81AEA7C4 /* UScrollViewContainer.swift */,
 				90858DF50BA1CE15BF0DE523C48E88B3 /* UScrollViewElement.swift */,
 				3D319483A25E756B7B8EB7CDDC6EB735 /* Pod */,
 				B6DE4760D4EF29A8D1A79F975ED6933B /* Support Files */,
-				6815B943283B90DC00B44D0B /* Gateway.storyboard */,
-				6815B945283B91CF00B44D0B /* GatewayVC.swift */,
 			);
 			name = UScrollView;
 			path = ../..;
